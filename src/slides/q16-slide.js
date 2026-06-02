@@ -1,4 +1,4 @@
-const q16Image = "./assets/images/slides/slide-16/instagram-aesthetic-updated.png?v=20260516-q16";
+const q16Image = "./assets/images/slides/slide-16/instagram-aesthetic-updated@2x.png?v=20260602-q16-retina";
 
 const q16Hotspots = [
   { key: "mom", label: "far.insta123" },

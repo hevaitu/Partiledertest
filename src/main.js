@@ -16,7 +16,7 @@ import { renderQ12Slide } from "./slides/q12-slide.js?v=transparent-bg";
 import { renderQ13Slide } from "./slides/q13-slide.js?v=20260602-pressen-venter";
 import { renderQ14Slide } from "./slides/q14-slide.js";
 import { renderQ15Slide } from "./slides/q15-slide.js";
-import { renderQ16Slide } from "./slides/q16-slide.js?v=20260516-q16";
+import { renderQ16Slide } from "./slides/q16-slide.js?v=20260602-q16-retina";
 import { renderQ17Slide } from "./slides/q17-slide.js";
 import { renderQ18Slide } from "./slides/q18-slide.js";
 import { renderQ19Slide } from "./slides/q19-slide.js";
