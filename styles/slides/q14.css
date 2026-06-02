@@ -1,0 +1,235 @@
+.q14-slide {
+  background: #9dbcca;
+}
+
+.q14-title {
+  position: absolute;
+  width: 261px;
+  height: 47px;
+  left: 136px;
+  top: 8px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 47px;
+  color: #000000;
+}
+
+.q14-prompt {
+  position: absolute;
+  width: 339px;
+  height: 40px;
+  left: 90px;
+  top: 55px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #1a1919;
+}
+
+.q14-card {
+  position: absolute;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  background: #f9f5de;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  color: #000000;
+  font-family: "Playfair Display", Georgia, serif;
+  cursor: pointer;
+  overflow: visible;
+}
+
+.q14-card--a {
+  width: 145px;
+  height: 82px;
+  left: 14px;
+  top: 107px;
+}
+
+.q14-card--b {
+  width: 147px;
+  height: 83px;
+  left: 174px;
+  top: 107px;
+}
+
+.q14-card--c {
+  width: 146px;
+  height: 83px;
+  left: 331px;
+  top: 107px;
+}
+
+.q14-card--d {
+  width: 145px;
+  height: 80px;
+  left: 14px;
+  top: 204px;
+}
+
+.q14-card--e {
+  width: 147px;
+  height: 80px;
+  left: 174px;
+  top: 204px;
+}
+
+.q14-card--f {
+  width: 144px;
+  height: 82px;
+  left: 333px;
+  top: 204px;
+}
+
+.q14-card-copy {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.q14-card-copy--a {
+  width: 69px;
+  height: 20px;
+  left: 13px;
+  top: 8px;
+}
+
+.q14-card-copy--b {
+  width: 103px;
+  height: 40px;
+  left: 7px;
+  top: 8px;
+}
+
+.q14-card-copy--c {
+  width: 72px;
+  height: 40px;
+  left: 15px;
+  top: 8px;
+}
+
+.q14-card-copy--d {
+  width: 53px;
+  height: 20px;
+  left: 18px;
+  top: 13px;
+}
+
+.q14-card-copy--e {
+  width: 58px;
+  height: 20px;
+  left: 6px;
+  top: 11px;
+}
+
+.q14-card-copy--f {
+  width: 103px;
+  height: 48px;
+  left: 13px;
+  top: 11px;
+  text-align: left;
+}
+
+.q14-card-image {
+  position: absolute;
+  display: block;
+  pointer-events: none;
+  user-select: none;
+  object-fit: contain;
+}
+
+.q14-card-image--licorice-pieces {
+  width: 64px;
+  height: 36px;
+  left: 15px;
+  top: 38px;
+}
+
+.q14-card-image--licorice-roll {
+  width: 62px;
+  height: 62px;
+  left: 68px;
+  top: 18px;
+}
+
+.q14-card-image--taquito {
+  width: 65px;
+  height: 52px;
+  left: 80px;
+  top: 24px;
+}
+
+.q14-card-image--cola-zero {
+  width: 39px;
+  height: 65px;
+  left: 93px;
+  top: 10px;
+}
+
+.q14-card-image--coffee {
+  width: 62px;
+  height: 63px;
+  left: 75px;
+  top: 11px;
+}
+
+.q14-card-image--beer-can {
+  width: 28px;
+  height: 50px;
+  left: 74px;
+  top: 21px;
+}
+
+.q14-card-image--beer-glass {
+  height: 76px;
+  width: 76px;
+  left: 75px;
+  top: 0;
+}
+
+.q14-card-image--smorrebrod {
+  width: 75px;
+  height: 44px;
+  left: 100px;
+  top: 33px;
+}
+
+.q14-card:hover,
+.q14-card.is-selected {
+  background: #d4cfad;
+}
+
+.q14-card:focus-visible {
+  outline: 3px solid #000000;
+  outline-offset: 3px;
+}
+
+.q14-progress-strip {
+  position: absolute;
+  width: 341px;
+  height: 7px;
+  left: 95px;
+  top: 300px;
+  display: flex;
+  gap: 4px;
+}
+
+.q14-progress-segment {
+  display: block;
+  width: 19px;
+  height: 7px;
+  border-radius: 999px;
+  background: #d9d9d9;
+}
+
+.q14-progress-segment.is-active {
+  background: #67c7b0;
+}

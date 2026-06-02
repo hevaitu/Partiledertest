@@ -1,0 +1,207 @@
+.q9-slide {
+  background: #9dbcca;
+}
+
+.q9-title {
+  position: absolute;
+  width: 195px;
+  height: 47px;
+  left: 147px;
+  top: 5px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 47px;
+  color: #000000;
+}
+
+.q9-prompt {
+  position: absolute;
+  width: 470px;
+  height: 20px;
+  left: 22px;
+  top: 56px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.q9-card {
+  position: absolute;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  background: #f9f5de;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  cursor: pointer;
+}
+
+.q9-card--a {
+  width: 137px;
+  height: 88px;
+  left: 17px;
+  top: 112px;
+}
+
+.q9-card--b {
+  width: 139px;
+  height: 88px;
+  left: 180px;
+  top: 112px;
+}
+
+.q9-card--c {
+  width: 137px;
+  height: 86px;
+  left: 342px;
+  top: 113px;
+}
+
+.q9-card--d {
+  width: 139px;
+  height: 85px;
+  left: 17px;
+  top: 209px;
+}
+
+.q9-card--e {
+  width: 139px;
+  height: 87px;
+  left: 180px;
+  top: 209px;
+}
+
+.q9-card--f {
+  width: 137px;
+  height: 86px;
+  left: 342px;
+  top: 208px;
+}
+
+.q9-card-label {
+  position: absolute;
+  left: 9px;
+  top: 7px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.q9-food-image {
+  position: absolute;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.q9-food-image--a-left {
+  width: 61px;
+  height: 72px;
+  left: 16px;
+  top: 7px;
+  transform: rotate(-19.8deg);
+}
+
+.q9-food-image--a-right {
+  width: 47px;
+  height: 77px;
+  left: 79px;
+  top: 7px;
+  transform: scaleX(-1);
+}
+
+.q9-food-image--b-left {
+  width: 69px;
+  height: 58px;
+  left: 5px;
+  top: 25px;
+}
+
+.q9-food-image--b-right {
+  width: 57px;
+  height: 58px;
+  left: 60px;
+  top: 20px;
+}
+
+.q9-food-image--c-left {
+  width: 59px;
+  height: 51px;
+  left: 71px;
+  top: 12px;
+}
+
+.q9-food-image--c-right {
+  width: 80px;
+  height: 43px;
+  left: 5px;
+  top: 34px;
+}
+
+.q9-food-image--d-left {
+  width: 75px;
+  height: 75px;
+  left: 32px;
+  top: 5px;
+}
+
+.q9-food-image--d-right {
+  display: none;
+}
+
+.q9-food-image--e-left {
+  width: 107px;
+  height: 74px;
+  left: 13px;
+  top: 6px;
+}
+
+.q9-food-image--e-right {
+  width: 25px;
+  height: 39px;
+  left: 96px;
+  top: 3px;
+  transform: none;
+}
+
+.q9-food-image--f {
+  width: 66px;
+  height: 56px;
+  left: 38px;
+  top: 15px;
+}
+
+.q9-card:hover,
+.q9-card.is-selected {
+  background: #d4cfad;
+}
+
+.q9-card:focus-visible {
+  outline: 3px solid #000000;
+  outline-offset: 3px;
+}
+
+.q9-progress-strip {
+  position: absolute;
+  width: 341px;
+  height: 7px;
+  left: 95px;
+  top: 300px;
+  display: flex;
+  gap: 4px;
+}
+
+.q9-progress-segment {
+  display: block;
+  width: 19px;
+  height: 7px;
+  background: #d9d9d9;
+  border-radius: 999px;
+}
+
+.q9-progress-segment.is-active {
+  background: var(--mint);
+}

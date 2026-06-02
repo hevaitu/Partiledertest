@@ -1,0 +1,277 @@
+.q17-slide {
+  background: #f9f5de;
+}
+
+.q17-title {
+  position: absolute;
+  width: 484px;
+  height: 64px;
+  left: 23px;
+  top: 24px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #941919;
+}
+
+.q17-option {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  background: #e2dec2;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  color: #000000;
+  cursor: pointer;
+}
+
+.q17-option.is-selected {
+  background: #d9d2ad;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%), inset 0 0 0 2px #941919;
+}
+
+.q17-option:focus-visible {
+  outline: 3px solid #941919;
+  outline-offset: 3px;
+}
+
+.q17-option--prayer-left {
+  width: 31.66px;
+  height: 31.66px;
+  left: 77px;
+  top: 124px;
+}
+
+.q17-option--fire {
+  width: 31.66px;
+  height: 31.66px;
+  left: 127px;
+  top: 124px;
+}
+
+.q17-option--mind-blown {
+  width: 31.66px;
+  height: 31.66px;
+  left: 179px;
+  top: 125px;
+}
+
+.q17-option--smile {
+  width: 31.66px;
+  height: 31.66px;
+  left: 232px;
+  top: 124px;
+}
+
+.q17-option--image {
+  width: 31.66px;
+  height: 31.66px;
+  left: 286px;
+  top: 124px;
+}
+
+.q17-option--thumbs-up {
+  width: 31.66px;
+  height: 31.66px;
+  left: 339px;
+  top: 125px;
+}
+
+.q17-option--denmark {
+  width: 31.66px;
+  height: 31.66px;
+  left: 387px;
+  top: 125px;
+}
+
+.q17-option--smiling-face {
+  width: 31.66px;
+  height: 31.66px;
+  left: 429px;
+  top: 125px;
+}
+
+.q17-option--point-down {
+  width: 31.66px;
+  height: 31.66px;
+  left: 50px;
+  top: 167px;
+}
+
+.q17-option--no-emojis {
+  width: 165px;
+  height: 27px;
+  left: 91px;
+  top: 167px;
+}
+
+.q17-option--blue-heart {
+  width: 31.66px;
+  height: 31.66px;
+  left: 265px;
+  top: 164px;
+}
+
+.q17-option--prayer-right {
+  width: 31.66px;
+  height: 31.66px;
+  left: 315px;
+  top: 164px;
+}
+
+.q17-option--goat {
+  width: 31.66px;
+  height: 31.66px;
+  left: 366px;
+  top: 164px;
+}
+
+.q17-option--arrow-right {
+  width: 31.66px;
+  height: 31.66px;
+  left: 409px;
+  top: 164px;
+}
+
+.q17-option--adaptive {
+  width: 288px;
+  height: 32px;
+  left: 105px;
+  top: 203px;
+}
+
+.q17-option--coffee {
+  width: 31.66px;
+  height: 31.66px;
+  left: 62px;
+  top: 206px;
+}
+
+.q17-option--handshake {
+  width: 31.66px;
+  height: 31.66px;
+  left: 403px;
+  top: 203px;
+}
+
+.q17-option--writing {
+  width: 31.66px;
+  height: 31.66px;
+  left: 56px;
+  top: 245px;
+}
+
+.q17-option--sunglasses {
+  width: 33px;
+  height: 32px;
+  left: 100px;
+  top: 243px;
+}
+
+.q17-option--green-heart {
+  width: 31.66px;
+  height: 31.66px;
+  left: 147px;
+  top: 243px;
+}
+
+.q17-option--blue-heart,
+.q17-option--green-heart {
+  background: transparent;
+  box-shadow: none;
+}
+
+.q17-option--blue-heart:hover,
+.q17-option--blue-heart.is-selected,
+.q17-option--green-heart:hover,
+.q17-option--green-heart.is-selected {
+  background: transparent;
+  box-shadow: none;
+}
+
+.q17-option--no-time {
+  width: 148px;
+  height: 31px;
+  left: 192px;
+  top: 243px;
+}
+
+.q17-option--angry {
+  width: 31.66px;
+  height: 31.66px;
+  left: 349px;
+  top: 243px;
+}
+
+.q17-option--megaphone {
+  width: 31.66px;
+  height: 31.66px;
+  left: 397px;
+  top: 242px;
+}
+
+.q17-option--muscle {
+  width: 31.66px;
+  height: 31.66px;
+  left: 442px;
+  top: 242px;
+}
+
+.q17-emoji {
+  display: block;
+  font-family: "Inter", Arial, sans-serif !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.q17-emoji--large {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.q17-text {
+  display: block;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  text-align: center;
+}
+
+.q17-image-emoji {
+  display: block;
+  width: 20.36px;
+  height: 20.36px;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+}
+
+.q17-progress-strip {
+  position: absolute;
+  width: 341px;
+  height: 7px;
+  left: 91px;
+  top: 292px;
+  display: flex;
+  gap: 4px;
+}
+
+.q17-progress-segment {
+  display: block;
+  width: 19px;
+  height: 7px;
+  border-radius: 999px;
+  background: #d9d9d9;
+}
+
+.q17-progress-segment.is-active {
+  background: #67c7b0;
+}

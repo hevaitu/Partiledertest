@@ -1,0 +1,55 @@
+.q8-slide {
+  background: #9dbcca;
+  cursor: pointer;
+}
+
+.q8-title {
+  position: absolute;
+  width: 222px;
+  height: 144px;
+  left: 260px;
+  top: 87px;
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #7d715a;
+}
+
+.q8-title span {
+  display: block;
+}
+
+.q8-breakfast-image {
+  position: absolute;
+  width: 249px;
+  height: 199px;
+  left: 25px;
+  top: 59px;
+  object-fit: cover;
+}
+
+.q8-hunger-bubble {
+  position: absolute;
+  width: 101px;
+  height: 101px;
+  left: 66px;
+  top: 20px;
+  object-fit: cover;
+  transform: scaleX(-1);
+}
+
+.q8-hunger-label {
+  position: absolute;
+  width: 39px;
+  height: 13px;
+  left: 97px;
+  top: 58px;
+  margin: 0;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  color: #000000;
+}

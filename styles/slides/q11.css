@@ -1,0 +1,400 @@
+.q11-slide {
+  height: 326px;
+  background: #9dbcca;
+}
+
+.q11-dropzone {
+  position: absolute;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.q11-dropzone--head {
+  width: 80px;
+  height: 79px;
+  left: 123px;
+  top: 55px;
+  background: transparent;
+}
+
+.q11-dropzone--body {
+  width: 80px;
+  height: 109px;
+  left: 123px;
+  top: 140px;
+  background: transparent;
+}
+
+.q11-avatar {
+  position: absolute;
+  width: 82.11px;
+  height: 130px;
+  left: 217px;
+  top: 78px;
+  display: block;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+}
+
+.q11-decorative-blazer {
+  position: absolute;
+  width: 68px;
+  height: 80px;
+  left: 320px;
+  top: 71px;
+  display: block;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+  filter: drop-shadow(0 3px 2px rgb(0 0 0 / 18%));
+}
+
+.q11-choice {
+  position: absolute;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: rgb(255 188 188 / 24%);
+  cursor: pointer;
+}
+
+.q11-choice:hover:not(:disabled) {
+  border-color: transparent;
+  filter: drop-shadow(0 5px 4px rgb(0 0 0 / 24%));
+  transform: translateY(-1px);
+}
+
+.q11-choice:focus-visible,
+.q11-next-button:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.q11-choice.is-selected {
+  border-color: transparent;
+  box-shadow: none;
+  filter: drop-shadow(0 0 0 #67c7b0) drop-shadow(0 5px 4px rgb(0 0 0 / 28%));
+}
+
+.q11-choice:disabled {
+  cursor: not-allowed;
+  opacity: 0.36;
+}
+
+.q11-choice--glasses {
+  width: 77px;
+  height: 41px;
+  left: 20px;
+  top: 10px;
+}
+
+.q11-choice--sunglasses {
+  width: 80px;
+  height: 36px;
+  left: 127px;
+  top: 15px;
+  background: rgb(243 177 255 / 24%);
+}
+
+.q11-choice--bike-helmet {
+  width: 71px;
+  height: 50px;
+  left: 317px;
+  top: 9px;
+  background: rgb(142 253 190 / 24%);
+  border-color: #d9d9d9;
+  filter: drop-shadow(0 4px 4px rgb(0 0 0 / 25%));
+}
+
+.q11-choice--cap {
+  width: 80px;
+  height: 48px;
+  left: 414px;
+  top: 10px;
+  background: rgb(188 208 255 / 24%);
+}
+
+.q11-choice--blazer {
+  width: 80px;
+  height: 79px;
+  left: 19px;
+  top: 56px;
+  background: rgb(188 208 255 / 24%);
+  z-index: 2;
+}
+
+.q11-choice--blazer-alt {
+  width: 90px;
+  height: 93px;
+  left: 309px;
+  top: 65px;
+  background: rgb(188 208 255 / 24%);
+  z-index: 2;
+}
+
+.q11-choice--tshirt {
+  width: 80px;
+  height: 79px;
+  left: 123px;
+  top: 55px;
+}
+
+.q11-choice--sweater {
+  width: 90px;
+  height: 93px;
+  left: 410px;
+  top: 60px;
+  background: rgb(142 253 190 / 24%);
+  z-index: 2;
+}
+
+.q11-choice--dress {
+  width: 80px;
+  height: 107px;
+  left: 314px;
+  top: 153px;
+  background: #99cbc7;
+}
+
+.q11-choice--jeans {
+  width: 80px;
+  height: 98px;
+  left: 18px;
+  top: 144px;
+  background: rgb(243 177 255 / 24%);
+}
+
+.q11-choice--skirt {
+  width: 80px;
+  height: 109px;
+  left: 123px;
+  top: 140px;
+  background: rgb(142 253 190 / 24%);
+}
+
+.q11-choice--trousers {
+  width: 80px;
+  height: 107px;
+  left: 415px;
+  top: 151px;
+}
+
+.q11-choice--boot {
+  width: 77px;
+  height: 52px;
+  left: 20px;
+  top: 248px;
+  background: rgb(142 253 190 / 24%);
+}
+
+.q11-choice--sneaker {
+  width: 80px;
+  height: 48px;
+  left: 126px;
+  top: 253px;
+  background: rgb(188 208 255 / 24%);
+}
+
+.q11-choice--loafer {
+  width: 91px;
+  height: 41px;
+  left: 310px;
+  top: 263px;
+}
+
+.q11-choice--mary-jane {
+  width: 85px;
+  height: 39px;
+  left: 420px;
+  top: 261px;
+  background: rgb(243 177 255 / 24%);
+}
+
+.q11-choice,
+.q11-choice--sunglasses,
+.q11-choice--bike-helmet,
+.q11-choice--cap,
+.q11-choice--blazer,
+.q11-choice--blazer-alt,
+.q11-choice--tshirt,
+.q11-choice--sweater,
+.q11-choice--dress,
+.q11-choice--jeans,
+.q11-choice--skirt,
+.q11-choice--trousers,
+.q11-choice--boot,
+.q11-choice--sneaker,
+.q11-choice--loafer,
+.q11-choice--mary-jane {
+  background: transparent;
+  border-color: transparent;
+  filter: none;
+}
+
+.q11-wearable {
+  position: absolute;
+  display: block;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+  filter: drop-shadow(0 3px 2px rgb(0 0 0 / 18%));
+}
+
+.q11-choice.is-selected .q11-wearable {
+  filter: drop-shadow(0 0 4px #67c7b0) drop-shadow(0 4px 3px rgb(0 0 0 / 25%));
+}
+
+.q11-image--glasses {
+  width: 62px;
+  height: 21px;
+  left: 8px;
+  top: 10px;
+}
+
+.q11-image--sunglasses {
+  width: 62px;
+  height: 21px;
+  left: 9px;
+  top: 6px;
+}
+
+.q11-image--bike-helmet {
+  width: 51px;
+  height: 40px;
+  left: 10px;
+  top: 5px;
+}
+
+.q11-image--cap {
+  width: 59px;
+  height: 39px;
+  left: 5px;
+  top: 7px;
+}
+
+.q11-image--blazer {
+  width: 62px;
+  height: 77px;
+  left: 9px;
+  top: 1px;
+}
+
+.q11-image--blazer-alt {
+  width: 68px;
+  height: 80px;
+  left: 10px;
+  top: 6px;
+}
+
+.q11-image--tshirt {
+  width: 77px;
+  height: 72px;
+  left: 1px;
+  top: 4px;
+}
+
+.q11-image--sweater {
+  width: 81px;
+  height: 79px;
+  left: 5px;
+  top: 7px;
+}
+
+.q11-image--dress {
+  width: 60px;
+  height: 106px;
+  left: 10px;
+  top: 2px;
+}
+
+.q11-image--jeans {
+  width: 56px;
+  height: 91px;
+  left: 12px;
+  top: 4px;
+}
+
+.q11-image--skirt {
+  width: 54px;
+  height: 105px;
+  left: 13px;
+  top: 2px;
+}
+
+.q11-image--trousers {
+  width: 37px;
+  height: 100px;
+  left: 22px;
+  top: 3px;
+}
+
+.q11-image--boot {
+  width: 56px;
+  height: 38px;
+  left: 12px;
+  top: 8px;
+}
+
+.q11-image--sneaker {
+  width: 63px;
+  height: 44px;
+  left: 8px;
+  top: 2px;
+}
+
+.q11-image--loafer {
+  width: 80px;
+  height: 31px;
+  left: 7px;
+  top: 5px;
+}
+
+.q11-image--mary-jane {
+  width: 81px;
+  height: 29px;
+  left: 3px;
+  top: 5px;
+}
+
+.q11-next-button {
+  position: absolute;
+  width: 82px;
+  height: 33px;
+  left: 216px;
+  top: 260px;
+  border: 0;
+  border-radius: 5px;
+  background: #67c7b0;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  color: #000000;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.q11-next-button:hover {
+  background: #5fb9a4;
+}
+
+.q11-progress-strip {
+  position: absolute;
+  left: 101px;
+  top: 310px;
+  display: flex;
+  gap: 4px;
+  width: 341px;
+  height: 7px;
+}
+
+.q11-progress-segment {
+  width: 19px;
+  height: 7px;
+  border-radius: 999px;
+  background: #d9d9d9;
+}
+
+.q11-progress-segment.is-active {
+  background: #67c7b0;
+}

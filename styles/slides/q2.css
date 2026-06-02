@@ -1,0 +1,103 @@
+.q2-title {
+  position: absolute;
+  width: 447px;
+  height: 22px;
+  left: 52px;
+  top: 34px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  color: #941919;
+}
+
+.q2-option {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 20px;
+  background: #e2dec2;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+.q2-option .answer-prefix {
+  flex: 0 0 auto;
+}
+
+.q2-option--1 {
+  width: 237px;
+  height: 54px;
+  left: 16px;
+  top: 97px;
+  text-align: center;
+}
+
+.q2-option--2 {
+  width: 220px;
+  height: 54px;
+  left: 267px;
+  top: 97px;
+  justify-content: flex-start;
+  padding-left: 23px;
+  padding-right: 27px;
+  text-align: left;
+}
+
+.q2-option--3 {
+  width: 233px;
+  height: 51px;
+  left: 16px;
+  top: 171px;
+  justify-content: flex-start;
+  padding-left: 17px;
+}
+
+.q2-option--4 {
+  width: 220px;
+  height: 51px;
+  left: 267px;
+  top: 171px;
+  justify-content: flex-start;
+  padding-left: 12px;
+}
+
+.q2-option:hover,
+.q2-option.is-selected {
+  background: #d6d0aa;
+}
+
+.q2-option:focus-visible {
+  outline: 3px solid #000000;
+  outline-offset: 3px;
+}
+
+.progress-strip {
+  position: absolute;
+  width: 341px;
+  height: 7px;
+  left: 82px;
+  top: 297px;
+  display: flex;
+  gap: 4px;
+}
+
+.progress-segment {
+  display: block;
+  width: 19px;
+  height: 7px;
+  background: #d9d9d9;
+  border-radius: 999px;
+}
+
+.progress-segment.is-active {
+  background: var(--mint);
+}

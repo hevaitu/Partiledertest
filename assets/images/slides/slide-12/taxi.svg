@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="52" viewBox="0 0 91 52">
+  <path d="M8 27 20 13h43l17 14v14H8V27Z" fill="#F0D34D" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M26 16h14v11H17l9-11ZM44 16h18l10 11H44V16Z" fill="#FAF6D0" stroke="#111" stroke-width="1.5"/>
+  <rect x="37" y="5" width="19" height="8" rx="2" fill="#fff" stroke="#111" stroke-width="1.5"/>
+  <text x="40" y="11" font-family="Arial, sans-serif" font-size="6" font-weight="700">TAXA</text>
+  <circle cx="25" cy="41" r="7" fill="#444" stroke="#111" stroke-width="2"/>
+  <circle cx="67" cy="41" r="7" fill="#444" stroke="#111" stroke-width="2"/>
+</svg>

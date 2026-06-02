@@ -1,0 +1,185 @@
+.q12-slide {
+  background: #9dbcca;
+}
+
+.q12-title {
+  position: absolute;
+  width: 334px;
+  height: 40px;
+  left: 89px;
+  top: 10px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.q12-card {
+  position: absolute;
+  width: 241px;
+  height: 75px;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  background: #f9f5de;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  cursor: pointer;
+}
+
+.q12-card--a {
+  left: 8px;
+  top: 50px;
+}
+
+.q12-card--b {
+  left: 8px;
+  top: 133px;
+  height: 74px;
+}
+
+.q12-card--c {
+  left: 8px;
+  top: 217px;
+  height: 71px;
+}
+
+.q12-card--d {
+  left: 263px;
+  top: 50px;
+}
+
+.q12-card--e {
+  left: 263px;
+  top: 133px;
+  height: 74px;
+}
+
+.q12-card--f {
+  height: 71px;
+  left: 263px;
+  top: 215px;
+}
+
+.q12-card-copy {
+  position: absolute;
+  left: 7px;
+  top: 4px;
+  width: 132px;
+  color: #000000;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.q12-card--a .q12-card-copy {
+  width: 129px;
+}
+
+.q12-card--b .q12-card-copy {
+  width: 141px;
+  top: 5px;
+}
+
+.q12-card--c .q12-card-copy {
+  width: 93px;
+  top: 10px;
+}
+
+.q12-card--d .q12-card-copy {
+  width: 146px;
+}
+
+.q12-card--e .q12-card-copy {
+  width: 140px;
+  top: 8px;
+}
+
+.q12-card--f .q12-card-copy {
+  width: 130px;
+  top: 8px;
+}
+
+.q12-card-image {
+  position: absolute;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+}
+
+.q12-card-image--road-bike {
+  width: 88px;
+  height: 58px;
+  left: 146px;
+  top: 8px;
+}
+
+.q12-card-image--puch-maxi {
+  width: 71px;
+  height: 59px;
+  left: 163px;
+  top: 8px;
+}
+
+.q12-card-image--minister-car {
+  width: 104px;
+  height: 60px;
+  left: 131px;
+  top: 6px;
+}
+
+.q12-card-image--bike-basket {
+  width: 77px;
+  height: 53px;
+  left: 158px;
+  top: 11px;
+}
+
+.q12-card-image--car {
+  width: 107px;
+  height: 54px;
+  left: 126px;
+  top: 12px;
+}
+
+.q12-card-image--rental-bike {
+  width: 65px;
+  height: 54px;
+  left: 164px;
+  top: 7px;
+  transform: scaleX(-1);
+}
+
+.q12-card:hover,
+.q12-card.is-selected {
+  background: #d4cfad;
+}
+
+.q12-card:focus-visible {
+  outline: 3px solid #000000;
+  outline-offset: 3px;
+}
+
+.q12-progress-strip {
+  position: absolute;
+  width: 341px;
+  height: 7px;
+  left: 92px;
+  top: 301px;
+  display: flex;
+  gap: 4px;
+}
+
+.q12-progress-segment {
+  display: block;
+  width: 19px;
+  height: 7px;
+  border-radius: 999px;
+  background: #d9d9d9;
+}
+
+.q12-progress-segment.is-active {
+  background: #67c7b0;
+}

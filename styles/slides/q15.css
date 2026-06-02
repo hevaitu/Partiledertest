@@ -1,0 +1,60 @@
+.q15-slide {
+  background: #9dbcca;
+  cursor: pointer;
+}
+
+.q15-title {
+  position: absolute;
+  width: 279px;
+  height: 36px;
+  left: 117px;
+  top: 21px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+}
+
+.q15-image-frame {
+  position: absolute;
+  width: 176px;
+  height: 220px;
+  left: 60px;
+  top: 72px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.q15-image {
+  position: absolute;
+  width: 204.3%;
+  height: 122.58%;
+  left: -53.36%;
+  top: -9.68%;
+  max-width: none;
+  object-fit: cover;
+}
+
+.q15-message-card {
+  position: absolute;
+  width: 184px;
+  height: 122px;
+  left: 256px;
+  top: 108px;
+  box-sizing: border-box;
+  padding: 18px 14px 14px;
+  border-radius: 5px;
+  background: #e2dec2;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  color: #000000;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.q15-message-card p {
+  margin: 0;
+}

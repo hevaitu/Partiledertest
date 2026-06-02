@@ -1,0 +1,136 @@
+.q18-slide {
+  background: #f9f5de;
+}
+
+.q18-title {
+  position: absolute;
+  width: 413px;
+  height: 64px;
+  left: 50px;
+  top: 9px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #941919;
+}
+
+.q18-option {
+  position: absolute;
+  width: 239px;
+  height: 24px;
+  padding: 0 5px;
+  border: 0;
+  border-radius: 5px;
+  background: #e2dec2;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  color: #000000;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.q18-option .answer-text {
+  font-weight: 400;
+}
+
+.q18-option:hover,
+.q18-option.is-selected {
+  background: #d9d2ad;
+}
+
+.q18-option.is-selected {
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%), inset 0 0 0 2px #941919;
+}
+
+.q18-option:focus-visible {
+  outline: 3px solid #941919;
+  outline-offset: 3px;
+}
+
+.q18-option--a {
+  left: 12px;
+  top: 73px;
+}
+
+.q18-option--b {
+  left: 12px;
+  top: 108px;
+}
+
+.q18-option--c {
+  left: 12px;
+  top: 143px;
+}
+
+.q18-option--d {
+  left: 12px;
+  top: 178px;
+}
+
+.q18-option--e {
+  left: 12px;
+  top: 213px;
+}
+
+.q18-option--f {
+  left: 12px;
+  top: 248px;
+}
+
+.q18-option--g {
+  left: 266px;
+  top: 73px;
+}
+
+.q18-option--h {
+  left: 265px;
+  top: 108px;
+  width: 240px;
+}
+
+.q18-option--i {
+  left: 266px;
+  top: 143px;
+}
+
+.q18-option--j {
+  left: 266px;
+  top: 178px;
+}
+
+.q18-option--k {
+  left: 266px;
+  top: 213px;
+}
+
+.q18-option--l {
+  left: 266px;
+  top: 248px;
+}
+
+.q18-progress-strip {
+  position: absolute;
+  width: 341px;
+  height: 7px;
+  left: 86px;
+  top: 300px;
+  display: flex;
+  gap: 4px;
+}
+
+.q18-progress-segment {
+  display: block;
+  width: 19px;
+  height: 7px;
+  border-radius: 999px;
+  background: #d9d9d9;
+}
+
+.q18-progress-segment.is-active {
+  background: #67c7b0;
+}

@@ -1,0 +1,85 @@
+.q3-title {
+  position: absolute;
+  width: 245px;
+  height: 58px;
+  left: 132px;
+  top: 9px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+  color: #941919;
+}
+
+.q3-option {
+  position: absolute;
+  width: 235px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 9px;
+  border: 0;
+  border-radius: 20px;
+  background: #e2dec2;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  color: #000000;
+  font-size: 9px;
+  line-height: 12px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.q3-option strong {
+  flex: 0 0 auto;
+  font-weight: 700;
+}
+
+.q3-option span {
+  font-weight: 400;
+}
+
+.q3-option--1 { left: 12px; top: 52px; }
+.q3-option--2 { left: 12px; top: 91px; }
+.q3-option--3 { left: 12px; top: 130px; }
+.q3-option--4 { left: 12px; top: 169px; }
+.q3-option--5 { left: 12px; top: 208px; }
+.q3-option--6 { left: 12px; top: 247px; }
+.q3-option--7 { left: 265px; top: 52px; }
+.q3-option--8 { left: 265px; top: 91px; }
+.q3-option--9 { left: 265px; top: 130px; }
+.q3-option--10 { left: 265px; top: 169px; }
+.q3-option--11 { left: 265px; top: 208px; }
+.q3-option--12 { left: 265px; top: 247px; }
+
+.q3-option:hover,
+.q3-option.is-selected {
+  background: #d6d0aa;
+}
+
+.q3-option:focus-visible {
+  outline: 2px solid #000000;
+  outline-offset: 2px;
+}
+
+.q3-progress-strip {
+  position: absolute;
+  width: 341px;
+  height: 7px;
+  left: 86px;
+  top: 293px;
+  display: flex;
+  gap: 4px;
+}
+
+.q3-progress-segment {
+  display: block;
+  width: 19px;
+  height: 7px;
+  background: #d9d9d9;
+  border-radius: 999px;
+}
+
+.q3-progress-segment.is-active {
+  background: var(--mint);
+}

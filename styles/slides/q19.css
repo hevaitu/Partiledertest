@@ -1,0 +1,99 @@
+.q19-slide {
+  background: #f9f5de;
+}
+
+.q19-title {
+  position: absolute;
+  width: 395px;
+  height: 47px;
+  left: 59px;
+  top: 6px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #941919;
+}
+
+.q19-map {
+  position: absolute;
+  width: 369px;
+  height: 225px;
+  left: 79px;
+  top: 63px;
+  padding: 0;
+  border: 5px solid #e2dec2;
+  border-radius: 5px;
+  background: #e2dec2;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  cursor: crosshair;
+  overflow: hidden;
+}
+
+.q19-map:focus-visible {
+  outline: 3px solid #941919;
+  outline-offset: 3px;
+}
+
+.q19-map-image {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  user-select: none;
+}
+
+.q19-pin {
+  position: absolute;
+  z-index: 1;
+  width: 18px;
+  height: 18px;
+  border-radius: 50% 50% 50% 0;
+  background: #941919;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 35%);
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -100%) rotate(-45deg);
+  transform-origin: 50% 100%;
+}
+
+.q19-pin::after {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 6px;
+  top: 6px;
+  border-radius: 50%;
+  background: #f9f5de;
+  content: "";
+}
+
+.q19-pin.is-visible {
+  opacity: 1;
+}
+
+.q19-progress-strip {
+  position: absolute;
+  width: 341px;
+  height: 7px;
+  left: 93px;
+  top: 304px;
+  display: flex;
+  gap: 4px;
+}
+
+.q19-progress-segment {
+  display: block;
+  width: 19px;
+  height: 7px;
+  border-radius: 999px;
+  background: #d9d9d9;
+}
+
+.q19-progress-segment.is-active {
+  background: #67c7b0;
+}

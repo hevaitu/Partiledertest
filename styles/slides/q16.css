@@ -1,0 +1,62 @@
+.q16-slide {
+  background: #f9f5de;
+}
+
+.q16-design-image {
+  position: absolute;
+  width: 514px;
+  height: 318px;
+  left: 0;
+  top: 0;
+  display: block;
+  pointer-events: none;
+  user-select: none;
+}
+
+.q16-hotspot {
+  position: absolute;
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.q16-hotspot--far {
+  width: 110px;
+  height: 220px;
+  left: 8px;
+  top: 65px;
+}
+
+.q16-hotspot--travel {
+  width: 110px;
+  height: 220px;
+  left: 139px;
+  top: 65px;
+}
+
+.q16-hotspot--sporty {
+  width: 110px;
+  height: 220px;
+  left: 275px;
+  top: 65px;
+}
+
+.q16-hotspot--mom {
+  width: 110px;
+  height: 220px;
+  left: 396px;
+  top: 65px;
+}
+
+.q16-hotspot:hover,
+.q16-hotspot.is-selected {
+  border-color: rgb(148 25 25 / 70%);
+  background: rgb(148 25 25 / 7%);
+}
+
+.q16-hotspot:focus-visible {
+  outline: 3px solid #941919;
+  outline-offset: 3px;
+}

@@ -1,0 +1,59 @@
+:root {
+  --paper: #f9f5de;
+  --blue: #4d8bb1;
+  --purple: #a27fb3;
+  --red: #c25758;
+  --mint: #67c7b0;
+  --ink: #000000;
+  --figma-width: 514;
+  --figma-height: 318;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+body.is-blue-stage {
+  background: #9dbcca;
+}
+
+button {
+  font: inherit;
+}
+
+.slide,
+.slide * {
+  font-family: "Playfair Display", Georgia, serif !important;
+}
+
+.answer-prefix {
+  font-weight: 700;
+}
+
+.answer-text {
+  font-weight: 400;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

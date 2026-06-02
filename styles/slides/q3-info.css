@@ -1,0 +1,18 @@
+.q3-info-slide {
+  background: #f9f5de;
+  cursor: pointer;
+}
+
+.q3-info-text {
+  position: absolute;
+  left: 88px;
+  top: 114px;
+  width: 298px;
+  height: 89px;
+  margin: 0;
+  color: rgb(0 0 0 / 80%);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+}

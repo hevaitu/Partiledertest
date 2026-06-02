@@ -1,0 +1,116 @@
+.title-chip,
+.title-text,
+.start-image,
+.start-button {
+  position: absolute;
+}
+
+.title-chip {
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 15px;
+}
+
+.title-chip--who {
+  width: 124px;
+  height: 44px;
+  left: 44.06px;
+  top: 4.71px;
+  background: var(--blue);
+  transform: rotate(-5.94deg);
+}
+
+.title-chip--you {
+  width: 124px;
+  height: 44px;
+  left: 134px;
+  top: 41px;
+  background: var(--purple);
+}
+
+.title-chip--borg {
+  width: 196px;
+  height: 53px;
+  left: 231px;
+  top: 14px;
+  background: var(--red);
+  transform: rotate(4.1deg);
+}
+
+.title-text {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.title-text--who {
+  left: 64.84px;
+  top: 14.77px;
+  color: #073f9e;
+  transform: rotate(-5.88deg);
+}
+
+.title-text--you {
+  left: 166px;
+  top: 45px;
+  color: #4d1554;
+}
+
+.title-text--borg {
+  left: 245px;
+  top: 22.55px;
+  color: #641717;
+  transform: rotate(4.1deg);
+}
+
+.start-image {
+  width: 258px;
+  height: 178px;
+  left: 21px;
+  top: 93px;
+  margin: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #eadfbf;
+}
+
+.start-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.start-button {
+  width: 146px;
+  height: 58px;
+  left: 318px;
+  top: 151px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  background: var(--mint);
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  cursor: pointer;
+}
+
+.start-button span {
+  position: relative;
+  z-index: 1;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.start-button:hover {
+  filter: brightness(1.03);
+}
+
+.start-button:focus-visible {
+  outline: 3px solid #000000;
+  outline-offset: 4px;
+}

@@ -1,0 +1,168 @@
+.q10-slide {
+  background: #9dbcca;
+}
+
+.q10-title {
+  position: absolute;
+  width: 384px;
+  height: 47px;
+  left: 70px;
+  top: 21px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 47px;
+  text-align: center;
+  color: #000000;
+}
+
+.q10-prompt {
+  position: absolute;
+  width: 165px;
+  height: 30px;
+  left: 184px;
+  top: 75px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+
+.q10-avatar {
+  position: absolute;
+  width: 82.11px;
+  height: 130px;
+  left: 139px;
+  top: 125px;
+}
+
+.q10-avatar span {
+  position: absolute;
+  display: block;
+  background: #595252;
+}
+
+.q10-avatar-head {
+  width: 32.67px;
+  height: 35.37px;
+  left: 24.72px;
+  top: 0;
+  border-radius: 50%;
+}
+
+.q10-avatar-neck {
+  width: 6.18px;
+  height: 13.38px;
+  left: 37.96px;
+  top: 30.59px;
+}
+
+.q10-avatar-body {
+  width: 24.72px;
+  height: 57.35px;
+  left: 29.13px;
+  top: 40.15px;
+  border-radius: 6px;
+}
+
+.q10-avatar-arm {
+  width: 36.2px;
+  height: 5.74px;
+  top: 48.75px;
+  border-radius: 8px;
+}
+
+.q10-avatar-arm--left {
+  left: 3.53px;
+}
+
+.q10-avatar-arm--right {
+  left: 41.49px;
+}
+
+.q10-avatar-hand {
+  width: 8.83px;
+  height: 9.56px;
+  top: 46.84px;
+  border-radius: 50%;
+}
+
+.q10-avatar-hand--left {
+  left: 0;
+}
+
+.q10-avatar-hand--right {
+  left: 73.28px;
+}
+
+.q10-avatar-leg {
+  width: 7px;
+  height: 34px;
+  top: 91px;
+  border-radius: 8px;
+}
+
+.q10-avatar-leg--left {
+  left: 31.5px;
+}
+
+.q10-avatar-leg--right {
+  left: 44px;
+}
+
+.q10-avatar-foot {
+  width: 10.59px;
+  height: 4.78px;
+  top: 125.22px;
+  border-radius: 20px;
+}
+
+.q10-avatar-foot--left {
+  left: 28.25px;
+}
+
+.q10-avatar-foot--right {
+  left: 44.14px;
+}
+
+.q10-make-button {
+  position: absolute;
+  width: 146px;
+  height: 58px;
+  left: 263px;
+  top: 154px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.q10-make-body {
+  position: absolute;
+  width: 146px;
+  height: 58px;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 17px;
+  border-radius: 5px;
+  background: #67c7b0;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.q10-make-button:hover .q10-make-body {
+  background: #5fb9a4;
+}
+
+.q10-make-button:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 4px;
+}

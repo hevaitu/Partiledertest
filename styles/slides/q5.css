@@ -1,0 +1,74 @@
+.q5-slide {
+  background: #9dbcca;
+}
+
+.q5-image {
+  position: absolute;
+  width: 158px;
+  height: 106px;
+  left: 183px;
+  top: 9px;
+  object-fit: cover;
+}
+
+.q5-title {
+  position: absolute;
+  width: 514px;
+  height: 43px;
+  left: 34px;
+  top: 116px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  color: #fffdfd;
+}
+
+.q5-card {
+  position: absolute;
+  width: 226px;
+  height: 104px;
+  left: 144px;
+  top: 159px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  padding: 5px 23px;
+  border-radius: 5px;
+  background: #e2dec2;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}
+
+.q5-card p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+}
+
+.q5-start-day {
+  position: absolute;
+  width: 215px;
+  height: 15px;
+  left: 291px;
+  top: 288px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #000000;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: left;
+  text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  cursor: pointer;
+}
+
+.q5-start-day:focus-visible {
+  outline: 2px solid #000000;
+  outline-offset: 3px;
+}

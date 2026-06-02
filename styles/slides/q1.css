@@ -1,0 +1,17 @@
+.q1-slide {
+  cursor: pointer;
+}
+
+.q1-text {
+  position: absolute;
+  width: 279px;
+  height: 139px;
+  left: 118px;
+  top: 93px;
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: rgb(0 0 0 / 80%);
+}
