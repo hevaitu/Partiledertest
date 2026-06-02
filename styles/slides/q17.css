@@ -181,7 +181,8 @@
 }
 
 .q17-option--blue-heart,
-.q17-option--green-heart {
+.q17-option--green-heart,
+.q17-option--red-heart {
   background: transparent;
   box-shadow: none;
 }
@@ -189,7 +190,9 @@
 .q17-option--blue-heart:hover,
 .q17-option--blue-heart.is-selected,
 .q17-option--green-heart:hover,
-.q17-option--green-heart.is-selected {
+.q17-option--green-heart.is-selected,
+.q17-option--red-heart:hover,
+.q17-option--red-heart.is-selected {
   background: transparent;
   box-shadow: none;
 }
