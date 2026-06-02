@@ -13,7 +13,7 @@ import { renderQ9Slide } from "./slides/q9-slide.js?v=transparent-bg";
 import { renderQ10Slide } from "./slides/q10-slide.js";
 import { renderQ11Slide } from "./slides/q11-slide.js?v=20260529-independent-blazer";
 import { renderQ12Slide } from "./slides/q12-slide.js?v=transparent-bg";
-import { renderQ13Slide } from "./slides/q13-slide.js";
+import { renderQ13Slide } from "./slides/q13-slide.js?v=20260602-pressen-venter";
 import { renderQ14Slide } from "./slides/q14-slide.js";
 import { renderQ15Slide } from "./slides/q15-slide.js";
 import { renderQ16Slide } from "./slides/q16-slide.js?v=20260516-q16";
@@ -153,6 +153,7 @@ function renderCurrentSlide() {
       selectedValues: state.answers.Q11 || [],
       onChange: (values) => {
         state.answers.Q11 = values;
+        updateForwardNavigationState();
       },
       onNext: goToNextSlide
     });
@@ -333,7 +334,12 @@ function renderNavigation() {
 
   if (!["Q5", "Q10"].includes(slide.id) && state.currentSlideIndex < quizData.questions.length - 1) {
     const forwardButton = createNavButton("forward", "›", "Gå frem");
-    forwardButton.addEventListener("click", goToNextSlide);
+    forwardButton.disabled = !canUseForwardNavigation(slide);
+    forwardButton.addEventListener("click", () => {
+      if (canUseForwardNavigation(slide)) {
+        goToNextSlide();
+      }
+    });
     nav.append(forwardButton);
   }
 
@@ -347,6 +353,29 @@ function createNavButton(direction, text, label) {
   button.textContent = text;
   button.setAttribute("aria-label", label);
   return button;
+}
+
+function updateForwardNavigationState() {
+  const forwardButton = document.querySelector(".quiz-nav-button--forward");
+  if (!forwardButton) {
+    return;
+  }
+
+  const slide = quizData.questions[state.currentSlideIndex];
+  forwardButton.disabled = !canUseForwardNavigation(slide);
+}
+
+function canUseForwardNavigation(slide) {
+  if (!slide || slide.type !== "question") {
+    return true;
+  }
+
+  return hasAnswer(slide.id);
+}
+
+function hasAnswer(slideId) {
+  const answer = state.answers[slideId];
+  return Array.isArray(answer) ? answer.length > 0 : answer !== undefined;
 }
 
 function renderProgress() {

@@ -4,14 +4,15 @@
 
 .q13-title {
   position: absolute;
-  width: 235px;
+  width: 360px;
   height: 47px;
-  left: 139px;
+  left: 77px;
   top: 10px;
   margin: 0;
   font-weight: 600;
   font-size: 35px;
   line-height: 47px;
+  text-align: center;
   color: #000000;
 }
 

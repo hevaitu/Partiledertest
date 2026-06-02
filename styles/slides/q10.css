@@ -4,14 +4,14 @@
 
 .q10-title {
   position: absolute;
-  width: 384px;
-  height: 47px;
-  left: 70px;
-  top: 21px;
+  width: 470px;
+  min-height: 80px;
+  left: 22px;
+  top: 10px;
   margin: 0;
   font-weight: 600;
-  font-size: 35px;
-  line-height: 47px;
+  font-size: 34px;
+  line-height: 40px;
   text-align: center;
   color: #000000;
 }
@@ -21,7 +21,7 @@
   width: 165px;
   height: 30px;
   left: 184px;
-  top: 75px;
+  top: 91px;
   margin: 0;
   font-weight: 400;
   font-size: 20px;
